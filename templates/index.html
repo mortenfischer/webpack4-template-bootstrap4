@@ -1,0 +1,146 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>CSI VallensCreek</title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <header></header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <span class="navbar-brand" href="#">Webpack 4 with Bootstrap 4</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggable" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-toggable">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Library Links
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="https://getbootstrap.com/docs">Boostrap 4 docs</a>
+                                <a class="dropdown-item" href="https://jquery.com/">jQuery docs</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Tooling documentation
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                                    <a class="dropdown-item" href="https://webpack.js.org/">Webpack docs</a>
+                                    <a class="dropdown-item" href="https://sass-lang.com/">SCSS / Sass</a>
+                                    <a class="dropdown-item" href="https://babeljs.io/">Babel JS transpiler</a>
+                                </div>
+                            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Language documentation
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript | Mozilla</a>
+                                <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/css">CSS | Mozilla</a>
+                                <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/html">HTML | Mozilla</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            
+            <div class="row">
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color:transparent;">
+                        <div class="container">
+                            <h1 class="display-4">Hello, world!</h1>
+                            <p class="lead">This is a simple and yet fully fledged configuration of Webpack 4 including Babel transpiling and Boostrap 4 framework.</p>
+                            <p>This page is just a generic start-page that you can delete. However, if you look around you will find links to valuable ressources for your frontend endevours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- start teaser rows -->
+            <div class="row">
+
+                <div class="col-md d-flex mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2>A complete guide to flexbox</h2>
+                                <p>Boostrap 4's grid-system is utilizing flexbox. Read about the ins and outs of flexbox here.</p>
+                                <a class="btn btn-info" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Read it!</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md d-flex mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2>HTML semantics</h2>
+                                <p>The order and organisation of your markup is important. Not only for layout but also for <a href="https://en.wikipedia.org/wiki/Assistive_technology">Assistive technology</a> like screen readers.
+                                </p>
+                                <a class="btn btn-info" href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML">Read it!</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md d-flex mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2>How to understand package.json</h2>
+                                <p>The NPM package manager stores info about your project in a package.json</p>
+                                <a class="btn btn-info" href="https://flaviocopes.com/package-json/">Read it!</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!-- end teaser rows -->
+
+            <!-- start feature desc rows -->
+            <div class="row">
+                <div class="col mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>Feature description</h2>
+                            <p class="lead">What follows is a description of what this particular configuration of Webpack does for you.</p>
+
+                            <hr>
+                            <p><strong>Localhost dev environment and Production build script</strong></p>
+                            <p>Start dev environment: <code>npm run start</code>.</p>
+                            <p>Compile to production: <code>npm run build</code>.</p>
+                            
+                            <hr>
+                            <p><strong>Multiple entry files</strong></p>
+                            <p>You can have as many entry files as you like. Each entry will result in a new destination file. You can see the config here in <code>config/webpack.common.js</code>.</p>
+                            <p>Please note that Webpack outputs JS files for everything, also CSS. You should however ignore those and only mind the CSS files.</p>
+
+                            <hr>
+                            <p><strong>SCSS transpilation</strong></p>
+                            <p>You will get automatic transpilation from .scss files into .css files. This means you have the posibility to tap into the power of SCSS/Sass.</p>
+
+                            <hr>
+                            <p><strong>ES6+ transpilation</strong></p>
+                            <p>All .js files will be transpiled to match ES5 that works in all browsers, including Internet Explorer 11 specifically. In a few years this transpilation can theoretically be removed, but as with most things fronted: It depends!</p>
+                            
+                            <hr>
+                            <p><strong>Automatic copying of css/js files to your solutions static file folders</strong></p>
+                            <p>Currently all files that are transpiled when you call <code>npm run build</code> end up in the "build" folder. Here they are not of much use, and it is not recommended to configure webpack to use destinationfolders that are not "local" to your frontend solution.</p>
+                            <p>To enable automatic copying of files (so you dont have to manually move them everytime) you need to look at the config file called <code>config/copy-to-solution.js</code>.</p>
+                            <p>In this config file you specify the path to your final destination. The copying will run AFTER all transpilation have completed, as can be seen in <code>config/webpack.prod.js</code>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end feature desc rows -->
+        </div>
+        <footer style="margin-top:1rem">
+                <nav class="navbar navbar-light bg-light justify-content-center">
+                    <em>Good luck and have fun!</em>
+                </nav>
+        </footer>
+        <script src="app.js"></script>
+
+    </body>
+</html>
